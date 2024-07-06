@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Functions : MonoBehaviour
+{
+    
+	int global;
+    
+    void Start()
+    {
+        
+		
+		Debug.Log(Add(2, 4));
+    }
+
+    
+    void Update()
+    {
+        
+    }
+
+	
+    public int Add(int num1, int num2)
+    {
+        
+		int result = num1 + num2;
+
+        return result;
+    }
+}
